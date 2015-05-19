@@ -1,0 +1,102 @@
+body {
+  margin-bottom: 15px;
+}
+
+.title-with-button {
+  display: inline-block;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.button-with-title {
+  vertical-align: super;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.ng-invalid.ng-dirty {
+ border-color: red
+}
+
+.ng-valid.ng-dirty {
+  border-color:green
+}
+
+.principal-buttons {
+  list-style-type: none;
+}
+
+.principal-buttons button {
+  width: 100%;
+  height: 100px;
+  max-width: 320px;
+  display: inline-block;
+  float: left;
+  margin: 10px 10px;
+}
+
+.principal-buttons button span {
+  margin-right: 10px;
+}
+
+hr {
+  border-width: 10px 0 0;
+  border-style: dashed none none;
+}
+
+
+
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+  line-height: 0;
+  opacity: 0;
+  padding: 0 10px;
+}
+
+
+
+@media screen {
+
+    #printSection {
+
+        display: none;
+
+    }
+
+}
+
+@media print {
+
+    body * {
+
+        visibility:hidden;
+
+    }
+
+    #printSection, #printSection * {
+
+        visibility:visible;
+
+    }
+
+    #printSection {
+
+        position:absolute;
+
+        left:0;
+
+        top:0;
+
+    }
+
+}
+
+

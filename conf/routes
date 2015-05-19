@@ -1,0 +1,90 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                   controllers.Application.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                       controllers.Assets.at(path="/public", file)
+
+# Puntos de venta
+
+POST    /admin/puntos-de-venta              controllers.PuntoDeVentaController.agregarPunto()
+
+GET     /admin/puntos-de-venta/:id          controllers.PuntoDeVentaController.getPunto(id: Long)
+
+GET     /admin/puntos-de-venta              controllers.PuntoDeVentaController.listarPuntos()
+
+PUT     /admin/puntos-de-venta/:id          controllers.PuntoDeVentaController.modificarPunto(id: Long)
+
+DELETE /admin/puntos-de-venta/:id           controllers.PuntoDeVentaController.eliminarPunto(id: Long)
+
+##############################
+
+GET     /admin/tipo-puntos-de-venta         controllers.PuntoDeVentaController.listarTipoPdv()
+
+GET     /admin/localidad                    controllers.PuntoDeVentaController.listarLocalidades()
+
+POST    /login/:usuario/:pass               controllers.SecurityController.login(usuario: String, pass: String)
+
+POST    /logout                             controllers.SecurityController.logout
+
+##############################
+
+# Personas
+
+POST    /admin/clientes                     controllers.PersonaController.crearCliente()
+
+POST    /admin/empleados                    controllers.PersonaController.crearEmpleado()
+
+# Para cuando el cliente se registra por su cuenta
+POST    /clientes                           controllers.PersonaController.crearCliente()
+
+GET     /admin/clientes/:id                 controllers.PersonaController.getPersona(id: Long)
+
+GET     /admin/empleados/:id                controllers.PersonaController.getPersona(id: Long)
+
+GET     /admin/clientes                     controllers.PersonaController.listarClientes()
+
+GET     /admin/empleados                    controllers.PersonaController.listarEmpleados()
+
+PUT     /admin/empleados/:id                controllers.PersonaController.modificarEmpleado(id: Long)
+
+PUT     /admin/clientes/:id                 controllers.PersonaController.modificarCliente(id: Long)
+
+PUT     /clientes/:id                       controllers.PersonaController.modificarCliente(id: Long)
+
+PUT     /admin/empleados/cesar/:id          controllers.PersonaController.cesarEmpleado(id: Long)
+
+PUT     /admin/empleados/rehabilitar/:id    controllers.PersonaController.rehabilitarEmpleado(id: Long)
+
+DELETE  /admin/clientes/:id                 controllers.PersonaController.eliminarCliente(id: Long)
+
+DELETE  /clientes/:id                       controllers.PersonaController.eliminarCliente(id: Long)
+
+# Encomiendas
+
+POST    /ventas                             controllers.EncomiendaController.crearVenta()
+
+# PUT     /ventas/:id                         controllers.EncomiendaController.registrarEncomienda(id: Long)
+
+# PUT     /ventas/finalizar/:id               controllers.EncomiendaController.finalizarVenta(id: Long)
+
+GET     /ventas/:id                         controllers.EncomiendaController.getVenta(id: Long)
+
+GET     /ventas/encomiendas/punto-de-venta/:id    controllers.EncomiendaController.generarOrden(id: Long)
+
+GET     /ventas/encomiendas/:id             controllers.EncomiendaController.getEncomienda(id: Long)
+
+GET     /ventas/nombre-estados-encomienda   controllers.EncomiendaController.listarEstados()
+
+GET     /ventas/encomiendas/estados/:id     controllers.EncomiendaController.listarHistoricoEstados(id: Long)
+
+PUT     /ventas/encomiendas/despachar/:id   controllers.EncomiendaController.despacharEncomienda(id: Long)
+
+PUT     /ventas/encomiendas/recibir/:id/:punto     controllers.EncomiendaController.recibirEncomienda(id: Long, punto: Long)
+
+PUT     /ventas/encomiendas/entregar/:id    controllers.EncomiendaController.entregarEncomienda(id: Long)
+
+

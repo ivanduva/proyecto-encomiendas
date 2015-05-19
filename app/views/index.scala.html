@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href='@routes.Assets.at("front/bower_components/bootstrap/dist/css/bootstrap.css")'>
+    <link rel="stylesheet" href='@routes.Assets.at("front/bower_components/flat-ui/dist/css/flat-ui.css")'>
+    <link rel="stylesheet" href='@routes.Assets.at("front/static/css/style.css")'>
+</head>
+<body ng-app="app">
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">icono</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#/dashboard">Home</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+              <li><a href="#/login">Login</a></li>
+              <li><a href="#/public/clientes/new">Registrarse</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav><!-- /navbar -->
+
+    <div class="container" ng-view></div>
+
+    <script src='@routes.Assets.at("front/bower_components/jquery/dist/jquery.js")'></script>
+    <script src='@routes.Assets.at("front/bower_components/flat-ui/dist/js/flat-ui.js")'></script>
+    <!-- Angular -->
+    <script src='@routes.Assets.at("front/bower_components/angular/angular.js")'></script>
+    <script src='@routes.Assets.at("front/bower_components/angular-route/angular-route.js")'></script>
+    <script src='@routes.Assets.at("front/bower_components/angular-resource/angular-resource.js")'></script>
+
+    <!-- App -->
+    <script src='@routes.Assets.at("front/app/app.module.js")'></script>
+    <script src='@routes.Assets.at("front/app/services/data.service.js")'></script>
+
+    <!-- Punto de venta -->
+    <script src='@routes.Assets.at("front/app/punto_venta/punto_venta.module.js")'></script>
+    <script src='@routes.Assets.at("front/app/punto_venta/punto_venta.js")'></script>
+
+    <!-- Clientes -->
+    <script src='@routes.Assets.at("front/app/clientes/clientes.module.js")'></script>
+    <script src='@routes.Assets.at("front/app/clientes/clientes.js")'></script>
+
+    <!-- Empleados -->
+    <script src='@routes.Assets.at("front/app/empleados/empleados.module.js")'></script>
+    <script src='@routes.Assets.at("front/app/empleados/empleados.js")'></script>
+
+    <!-- Encomiendas -->
+    <script src='@routes.Assets.at("front/app/encomiendas/encomiendas.module.js")'></script>
+    <script src='@routes.Assets.at("front/app/encomiendas/encomiendas.js")'></script>
+
+    <!-- Ventas -->
+    <script src='@routes.Assets.at("front/app/ventas/ventas.module.js")'></script>
+    <script src='@routes.Assets.at("front/app/ventas/ventas.js")'></script>
+
+</body>
+</html>
