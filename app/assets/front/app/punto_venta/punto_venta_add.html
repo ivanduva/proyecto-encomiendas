@@ -1,6 +1,6 @@
   <div class="row">
    <div class="col-md-8 col-md-offset-2">
-      <span class="title-with-button">{{ vm.title }}</span>
+      <span class="title-with-button">titulo</span>
      {{ vm.punto }}
       <form name="addPDV" class="form-horizontal" action="" ng-submit="addPDV.$valid && vm.save()" novalidate>
 
@@ -16,7 +16,7 @@
         <div class="form-group">
           <label for="tipo" class="col-sm-3 control-label">Tipo</label>
           <div class="col-sm-8">
-            <select type="text" class="form-control" id="tipo" ng-model="vm.tipo" ng-options="tipo as vm.makeReadable(tipo) for tipo in vm.tipoPDV" required>
+            <select type="text" class="form-control" id="tipo" ng-model="vm.tipo" ng-options="tipo as vm.makeReadable(tipo) for tipo in vm.tipoPDV">
             </select>
           </div>
         </div>
@@ -24,7 +24,7 @@
         <div class="form-group">
           <label for="localidad" class="col-sm-3 control-label">Localidad</label>
           <div class="col-sm-8">
-            <select type="text" class="form-control" id="localidad" ng-model="vm.localidad" ng-options="localidad.localidadId as localidad.nombre for localidad in vm.localidades" required>
+            <select type="text" class="form-control" id="localidad" ng-model="vm.localidad" ng-options="localidad.localidadId as localidad.nombre for localidad in vm.localidades">
             </select>
           </div>
         </div>
