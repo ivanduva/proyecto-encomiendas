@@ -1,0 +1,4 @@
+[0m[[31merror[0m] [0mC:\Users\Ivan\Documents\ivan\repo-codigo\proyecto\proyecto-encomiendas\app\assets\js\pdv.coffee:14: unexpected "Puntos de Venta"[0m
+[0m[[31merror[0m] [0m  $.get "/admin/puntos-de-venta", ("Puntos de Venta") ->[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0mone error found[0m

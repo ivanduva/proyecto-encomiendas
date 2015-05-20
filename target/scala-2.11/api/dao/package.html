@@ -1,0 +1,271 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>dao - dao</title>
+          <meta name="description" content="dao - dao" />
+          <meta name="keywords" content="dao dao" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../lib/template.js"></script>
+      <script type="text/javascript" src="../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../index.html';
+            var hash = 'dao.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../lib/package_big.png" />
+        
+        <h1>dao</h1> <span class="permalink">
+      <a href="../index.html#dao.package" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">dao</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="dao.Persistencia" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Persistencia[T,K]extendsObject"></a>
+      <a id="Persistencia[T,K]:Persistencia[T,K]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Persistencia.html"><span class="name">Persistencia</span></a><span class="tparams">[<span name="T">T</span>, <span name="K">K</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@Persistencia[T,K]extendsObject" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDB" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDB[T,K]extendsPersistencia[T,K]"></a>
+      <a id="PersistenciaDB[T,K]:PersistenciaDB[T,K]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDB.html"><span class="name">PersistenciaDB</span></a><span class="tparams">[<span name="T">T</span>, <span name="K">K</span>]</span><span class="result"> extends <a href="Persistencia.html" class="extype" name="dao.Persistencia">Persistencia</a>[<span class="extype" name="dao.PersistenciaDB.T">T</span>, <span class="extype" name="dao.PersistenciaDB.K">K</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDB[T,K]extendsPersistencia[T,K]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBEncomienda" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBEncomiendaextendsPersistenciaDB[model.Encomienda,Long]"></a>
+      <a id="PersistenciaDBEncomienda:PersistenciaDBEncomienda"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBEncomienda.html"><span class="name">PersistenciaDBEncomienda</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/Encomienda.html" class="extype" name="model.Encomienda">Encomienda</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBEncomiendaextendsPersistenciaDB[model.Encomienda,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBLocalidad" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBLocalidadextendsPersistenciaDB[model.Localidad,Long]"></a>
+      <a id="PersistenciaDBLocalidad:PersistenciaDBLocalidad"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBLocalidad.html"><span class="name">PersistenciaDBLocalidad</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/Localidad.html" class="extype" name="model.Localidad">Localidad</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBLocalidadextendsPersistenciaDB[model.Localidad,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBPersona" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBPersonaextendsPersistenciaDB[model.Persona,Long]"></a>
+      <a id="PersistenciaDBPersona:PersistenciaDBPersona"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBPersona.html"><span class="name">PersistenciaDBPersona</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/Persona.html" class="extype" name="model.Persona">Persona</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBPersonaextendsPersistenciaDB[model.Persona,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBPuntoDeVenta" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBPuntoDeVentaextendsPersistenciaDB[model.PuntoDeVenta,Long]"></a>
+      <a id="PersistenciaDBPuntoDeVenta:PersistenciaDBPuntoDeVenta"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBPuntoDeVenta.html"><span class="name">PersistenciaDBPuntoDeVenta</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/PuntoDeVenta.html" class="extype" name="model.PuntoDeVenta">PuntoDeVenta</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBPuntoDeVentaextendsPersistenciaDB[model.PuntoDeVenta,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBSecurityRole" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBSecurityRoleextendsPersistenciaDB[model.SecurityRole,Long]"></a>
+      <a id="PersistenciaDBSecurityRole:PersistenciaDBSecurityRole"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBSecurityRole.html"><span class="name">PersistenciaDBSecurityRole</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/SecurityRole.html" class="extype" name="model.SecurityRole">SecurityRole</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBSecurityRoleextendsPersistenciaDB[model.SecurityRole,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBUserPermission" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBUserPermissionextendsPersistenciaDB[model.UserPermission,Long]"></a>
+      <a id="PersistenciaDBUserPermission:PersistenciaDBUserPermission"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBUserPermission.html"><span class="name">PersistenciaDBUserPermission</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/UserPermission.html" class="extype" name="model.UserPermission">UserPermission</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBUserPermissionextendsPersistenciaDB[model.UserPermission,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBUsuario" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBUsuarioextendsPersistenciaDB[model.Usuario,Long]"></a>
+      <a id="PersistenciaDBUsuario:PersistenciaDBUsuario"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBUsuario.html"><span class="name">PersistenciaDBUsuario</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/Usuario.html" class="extype" name="model.Usuario">Usuario</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBUsuarioextendsPersistenciaDB[model.Usuario,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="dao.PersistenciaDBVenta" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PersistenciaDBVentaextendsPersistenciaDB[model.Venta,Long]"></a>
+      <a id="PersistenciaDBVenta:PersistenciaDBVenta"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PersistenciaDBVenta.html"><span class="name">PersistenciaDBVenta</span></a><span class="result"> extends <a href="PersistenciaDB.html" class="extype" name="dao.PersistenciaDB">PersistenciaDB</a>[<a href="../model/Venta.html" class="extype" name="model.Venta">Venta</a>, <span class="extype" name="java.lang.Long">Long</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../index.html#dao.package@PersistenciaDBVentaextendsPersistenciaDB[model.Venta,Long]" title="Permalink" target="_top">
+        <img src="../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

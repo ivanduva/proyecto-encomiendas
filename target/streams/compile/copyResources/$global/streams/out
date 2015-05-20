@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\evolutions,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\META-INF,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\META-INF)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\openshift.conf,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\openshift.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\play.plugins,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\routes,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\evolutions\default,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\evolutions\default\1.sql,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\evolutions\default\1.sql)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\conf\META-INF\persistence.xml,C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\classes\META-INF\persistence.xml)[0m
