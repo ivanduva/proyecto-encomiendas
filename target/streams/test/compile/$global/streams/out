@@ -17,7 +17,7 @@
 [0m[[0minfo[0m] [0mCompiling 2 Java sources to C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\scala-2.11\test-classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @C:/Users/Ivan/AppData/Local/Temp/sbt_8c109bec/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @C:/Users/Ivan/AppData/Local/Temp/sbt_3ecc79c/argfile[0m
 [0m[[31merror[0m] [0mC:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\test\ApplicationTest.java:39: error: method render in class index cannot be applied to given types;[0m
 [0m[[31merror[0m] [0m        Content html = views.html.index.render("Your new application is ready.");[0m
 [0m[[31merror[0m] [0m                                       ^[0m

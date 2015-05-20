@@ -7,7 +7,7 @@
 		revision=""
 		conf="echo-trace-compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar"
-		date="20150519174611"/>
+		date="20150520121537"/>
 	<dependencies>
 		<module organisation="com.feth" name="play-authenticate_2.11">
 			<revision name="0.6.8" status="release" pubdate="20141106212835" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joscha.github.io/play-authenticate" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="77">
@@ -280,13 +280,13 @@
 			</revision>
 		</module>
 		<module organisation="org.postgresql" name="postgresql">
-			<revision name="9.3-1100-jdbc41" status="release" pubdate="20131101104433" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jdbc.postgresql.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="71">
+			<revision name="9.2-1003-jdbc4" status="release" pubdate="20130527192436" resolver="public" artresolver="public" homepage="http://jdbc.postgresql.org" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="71">
 				<license name="BSD License" url="http://jdbc.postgresql.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2385" time="0" location="C:\Users\Ivan\.ivy2\cache\org.postgresql\postgresql\ivy-9.3-1100-jdbc41.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41.pom"/>
-				<caller organisation="play" name="play_2.11" conf="echo-trace-compile, optional, compile, runtime, runtime-internal" rev="9.3-1100-jdbc41" rev-constraint-default="9.3-1100-jdbc41" rev-constraint-dynamic="9.3-1100-jdbc41" callerrev=""/>
+				<metadata-artifact status="successful" details="" size="1479" time="2066" location="C:\Users\Ivan\.ivy2\cache\org.postgresql\postgresql\ivy-9.2-1003-jdbc4.xml" searched="true" original-local-location="C:\Users\Ivan\.ivy2\cache\org.postgresql\postgresql\ivy-9.2-1003-jdbc4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom"/>
+				<caller organisation="play" name="play_2.11" conf="echo-trace-compile, optional, compile, runtime, runtime-internal" rev="9.2-1003-jdbc4" rev-constraint-default="9.2-1003-jdbc4" rev-constraint-dynamic="9.2-1003-jdbc4" callerrev=""/>
 				<artifacts>
-					<artifact name="postgresql" type="jar" ext="jar" status="no" details="" size="587064" time="0" location="C:\Users\Ivan\.ivy2\cache\org.postgresql\postgresql\jars\postgresql-9.3-1100-jdbc41.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41.jar"/>
+					<artifact name="postgresql" type="jar" ext="jar" status="successful" details="" size="594653" time="5994" location="C:\Users\Ivan\.ivy2\cache\org.postgresql\postgresql\jars\postgresql-9.2-1003-jdbc4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

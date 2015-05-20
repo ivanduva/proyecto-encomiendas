@@ -4,7 +4,7 @@
 		module="play_2.11"
 		revision=""
 		status="integration"
-		publication="20150519174611"
+		publication="20150520121536"
 	>
 		<description>
 		play
@@ -50,7 +50,7 @@
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.8" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.3.8" conf="compile->default(compile)"/>
 		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.3.8.Final" conf="compile->default(compile)"/>
-		<dependency org="org.postgresql" name="postgresql" rev="9.3-1100-jdbc41" conf="compile->default(compile)"/>
+		<dependency org="org.postgresql" name="postgresql" rev="9.2-1003-jdbc4" conf="compile->default(compile)"/>
 		<dependency org="org.postgis" name="postgis-jdbc" rev="1.3.1" conf="compile->default(compile)"/>
 		<dependency org="be.objectify" name="deadbolt-java_2.11" rev="2.3.2" conf="compile->default(compile)"/>
 		<dependency org="com.feth" name="play-authenticate_2.11" rev="0.6.8" conf="compile->default(compile)"/>

@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/Ivan/Documents/ivan/repo-codigo/proyecto/proyecto-encomiendas/conf/routes
+// @SOURCE:C:/Users/Ivan/Documents/ivan/repo-codigo/proyecto-encomiendas/conf/routes
 // @HASH:791ab351fafd4b54e7bcfbb778d05d8106f3ed81
-// @DATE:Tue May 19 01:40:44 ART 2015
+// @DATE:Wed May 20 12:16:16 ART 2015
 
 
 import play.core._

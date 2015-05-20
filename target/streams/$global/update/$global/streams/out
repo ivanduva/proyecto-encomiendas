@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for play#play_2.11; [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2868220c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c99cab8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
@@ -1208,15 +1208,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.postgresql#postgresql;9.3-1100-jdbc41 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.3-1100-jdbc41 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.postgresql#postgresql;9.3-1100-jdbc41[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.postgresql#postgresql;9.3-1100-jdbc41[0m
-[0m[[0mdebug[0m] [0m	found org.postgresql#postgresql;9.3-1100-jdbc41 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.postgresql#postgresql;9.2-1003-jdbc4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.2-1003-jdbc4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Ivan\.ivy2\local\org.postgresql\postgresql\9.2-1003-jdbc4\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.postgresql#postgresql;9.2-1003-jdbc4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.postgresql#postgresql;9.2-1003-jdbc4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom (9.2-1003-jdbc4)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.postgresql#postgresql;9.2-1003-jdbc4!postgresql.pom(pom.original) (2066ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\Ivan\.ivy2\local\org.postgresql\postgresql\9.2-1003-jdbc4\jars\postgresql.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.postgresql#postgresql;9.2-1003-jdbc4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.postgis#postgis-jdbc;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.postgis#postgis-jdbc;1.3.1 {compile=[default(compile)]}[0m
@@ -2256,10 +2266,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->compile][0m
@@ -3185,10 +3195,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->compile][0m
@@ -5323,10 +5333,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->compile][0m
@@ -6254,10 +6264,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->compile][0m
@@ -7185,10 +7195,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->compile][0m
@@ -9503,10 +9513,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->compile][0m
@@ -10440,10 +10450,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.3.8.Final->org.javassist#javassist;3.19.0-GA [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.hibernate#hibernate-entitymanager;4.3.8.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#play_2.11;->org.postgis#postgis-jdbc;1.3.1 [compile->compile][0m
@@ -11620,7 +11630,12 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.3.8!play-cache_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.3.8!play-java-ws_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hibernate#hibernate-entitymanager;4.3.8.Final!hibernate-entitymanager.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.postgresql#postgresql;9.3-1100-jdbc41!postgresql.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.postgresql#postgresql;9.2-1003-jdbc4!postgresql.jar (5994ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.postgis#postgis-jdbc;1.3.1!postgis-jdbc.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] be.objectify#deadbolt-java_2.11;2.3.2!deadbolt-java_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.feth#play-authenticate_2.11;0.6.8!play-authenticate_2.11.jar[0m
@@ -11775,7 +11790,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.trace#trace-sigar-libs;0.1.7!trace-sigar-libs.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 9671ms :: artifacts dl 806ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 30457ms :: artifacts dl 6601ms[0m
 [0m[[0mdebug[0m] [0m	report for play#play_2.11; compile produced in C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\resolution-cache\reports\play-play_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for play#play_2.11; runtime produced in C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\resolution-cache\reports\play-play_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for play#play_2.11; test produced in C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\resolution-cache\reports\play-play_2.11-test.xml[0m
@@ -11793,5 +11808,5 @@
 [0m[[0mdebug[0m] [0m	report for play#play_2.11; echo-trace-test produced in C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\resolution-cache\reports\play-play_2.11-echo-trace-test.xml[0m
 [0m[[0mdebug[0m] [0m	report for play#play_2.11; echo-weave produced in C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\resolution-cache\reports\play-play_2.11-echo-weave.xml[0m
 [0m[[0mdebug[0m] [0m	report for play#play_2.11; echo-sigar produced in C:\Users\Ivan\Documents\ivan\repo-codigo\proyecto-encomiendas\target\resolution-cache\reports\play-play_2.11-echo-sigar.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (9671ms resolve - 806ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (30457ms resolve - 6601ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
