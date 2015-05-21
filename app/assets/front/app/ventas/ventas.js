@@ -11,6 +11,8 @@
         var vm = this,
             encomiendaIdx;
 
+        vm.ocultarImprimir = false;
+
         dataservice.PuntosVenta().query(onPuntosDeVentaLoad, onFail);
         dataservice.Clientes().query(onClientesLoad, onFail);
         dataservice.Localidades().query(onLocalidadesLoad, onFail);
@@ -23,6 +25,10 @@
 
         vm.save = function () {
             dataservice.Ventas().save(vm.venta);
+            $location.path('/empleado/dashboard');
+        };
+
+        vm.volver = function () {
             $location.path('/empleado/dashboard');
         };
 
@@ -62,6 +68,19 @@
                 .reduce(function (prev, current, index, array) {
                     return prev + current;
                 });
+        }
+
+        vm.print = function () {
+            window.print();
+
+        }
+
+        vm.finalizar = function () {
+            vm.ocultarImprimir = true;
+        }
+
+        vm.habilitar = function () {
+            vm.ocultarImprimir = false;
         }
 
         function onPuntosDeVentaLoad (data) {

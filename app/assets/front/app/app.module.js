@@ -66,7 +66,7 @@
             /*CLIENTES*/
 
             when('/admin/clientes', {
-                templateUrl: '/assets/front/app/clientes/admin_clientes.html',
+                templateUrl: '/assets/front/app/clientes/clientes.html',
                 controller:"ClienteListController",
                 controllerAs: "vm"
             }).
@@ -78,12 +78,6 @@
             }).
 
             when('/admin/clientes/new', {
-                templateUrl: '/assets/front/app/clientes/clientes_add.html',
-                controller: "ClienteCreateController",
-                controllerAs: "vm"
-            }).
-
-            when('/public/clientes/new', {
                 templateUrl: '/assets/front/app/clientes/clientes_add.html',
                 controller: "ClienteCreateController",
                 controllerAs: "vm"
@@ -119,13 +113,13 @@
 
             /*ENCOMIENDAS*/
 
-            when('/public/estado-encomienda', {
+            when('/empleado/estado-encomienda', {
                 templateUrl: '/assets/front/app/encomiendas/ver_estados.html',
                 controller: "EncomiendaEstadosController",
                 controllerAs: "vm"
             }).
 
-            when('/empleado/estado-encomienda', {
+            when('/public/estado-encomienda', {
                 templateUrl: '/assets/front/app/encomiendas/ver_estados.html',
                 controller: "EncomiendaEstadosController",
                 controllerAs: "vm"
@@ -136,18 +130,6 @@
                 controller: "EncomiendaEstadosController",
                 controllerAs: "vm"
             }).
-
-            /*when('/empleado/recibir-encomienda', {
-                templateUrl: '/assets/front/app/encomiendas/ver_estados.html',
-                controller: "EncomiendaEstadosController",
-                controllerAs: "vm"
-            }).
-
-            when('/empleado/entregar-encomienda', {
-                templateUrl: '/assets/front/app/encomiendas/ver_estados.html',
-                controller: "EncomiendaEstadosController",
-                controllerAs: "vm"
-            }).*/
 
             when('/empleado/generar-orden', {
                 templateUrl: '/assets/front/app/encomiendas/orden_reparto.html',
